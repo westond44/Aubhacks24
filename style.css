@@ -1,33 +1,42 @@
 .center-title {
     text-align: center;
+    color: #fff; 
 }
+
 .assignments-container {
-margin:auto;
+    margin: auto;
 }
+
 .assignment {
     font-size: 40px;
+    color: #fff; 
 }
 
 img {
     width: 200px;
 }
+
 .content-container {
-   display: flex;
-   flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
+
 .rocket-container {
-margin-top: 400px;
+    margin-top: 400px;
 }
+
 .homework {
     margin-top: 400px;
 }
+
 .planet {
     margin-left: 750px;
 }
+
 .app-container {
-    background-image: url('images/spaceback.jpeg'); /* Add the path to your image */
-    background-size: cover; /* This will make sure the image covers the entire container */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent image from repeating */
-    padding: 20px; /* Add padding to ensure content is visible */
+    background-image: url('images/spaceback.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
 }
