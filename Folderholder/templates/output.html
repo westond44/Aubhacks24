@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1, h2, pre, ul {
+      margin-bottom: 20px;
+    }
+  </style>
+  <title>Assignment Details</title>
+</head>
+<body>
+  <h1>Assignment Details</h1>
+  <h2>Calendar for January 2024</h2>
+  <pre>{{ calendar_html }}</pre>
+  <h2>User Inputted Assignments</h2>
+  <ul>
+    {% for assignment in user_list %}
+      <li>{{ assignment }}</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
