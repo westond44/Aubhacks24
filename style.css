@@ -24,3 +24,10 @@ margin-top: 400px;
 .planet {
     margin-left: 750px;
 }
+.app-container {
+    background-image: url('images/spaceback.jpeg'); /* Add the path to your image */
+    background-size: cover; /* This will make sure the image covers the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    padding: 20px; /* Add padding to ensure content is visible */
+}
